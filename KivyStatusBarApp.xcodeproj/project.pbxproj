@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C0B3C712A725658007263CF /* PythonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B3C702A725658007263CF /* PythonHandler.swift */; };
+		8C3E98DC2A7148A600DA7D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E98DB2A7148A600DA7D21 /* AppDelegate.swift */; };
+		8C3E98DE2A7148A600DA7D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E98DD2A7148A600DA7D21 /* ViewController.swift */; };
+		8C3E98E02A7148AA00DA7D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3E98DF2A7148AA00DA7D21 /* Assets.xcassets */; };
+		8C3E98EB2A714BE700DA7D21 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E98EA2A714BE700DA7D21 /* main.swift */; };
+		8C3E98EE2A714D4500DA7D21 /* PythonSwiftCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8C3E98ED2A714D4500DA7D21 /* PythonSwiftCore */; };
+		8C3E98F02A714E0200DA7D21 /* PythonSwiftImportList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E98EF2A714E0200DA7D21 /* PythonSwiftImportList.swift */; };
+		8C3E98F72A71527000DA7D21 /* app_packages in Resources */ = {isa = PBXBuildFile; fileRef = 8C3E98F62A71527000DA7D21 /* app_packages */; };
+		8C3E98FE2A71563E00DA7D21 /* app in Resources */ = {isa = PBXBuildFile; fileRef = 8C3E98FD2A71563E00DA7D21 /* app */; };
+		8C3E98FF2A71576400DA7D21 /* python-stdlib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C3E98F22A714E5600DA7D21 /* python-stdlib */; };
+		8C3E99002A71582D00DA7D21 /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 8C3E98F22A714E5600DA7D21 /* python-stdlib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C3E98F82A71545900DA7D21 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = support;
+			dstSubfolderSpec = 7;
+			files = (
+				8C3E98FF2A71576400DA7D21 /* python-stdlib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C0B3C702A725658007263CF /* PythonHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonHandler.swift; sourceTree = "<group>"; };
+		8C3E98D82A7148A600DA7D21 /* KivyStatusBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KivyStatusBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3E98DB2A7148A600DA7D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C3E98DD2A7148A600DA7D21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C3E98DF2A7148AA00DA7D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C3E98E42A7148AA00DA7D21 /* KivyStatusBarApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KivyStatusBarApp.entitlements; sourceTree = "<group>"; };
+		8C3E98EA2A714BE700DA7D21 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8C3E98EF2A714E0200DA7D21 /* PythonSwiftImportList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PythonSwiftImportList.swift; sourceTree = "<group>"; };
+		8C3E98F22A714E5600DA7D21 /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "python-stdlib"; sourceTree = "<group>"; };
+		8C3E98F42A71505500DA7D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8C3E98F62A71527000DA7D21 /* app_packages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app_packages; sourceTree = "<group>"; };
+		8C3E98FD2A71563E00DA7D21 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C3E98D52A7148A600DA7D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3E98EE2A714D4500DA7D21 /* PythonSwiftCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C3E98CF2A7148A600DA7D21 = {
+			isa = PBXGroup;
+			children = (
+				8C3E98F12A714E3D00DA7D21 /* Support */,
+				8C3E98F62A71527000DA7D21 /* app_packages */,
+				8C3E98FD2A71563E00DA7D21 /* app */,
+				8C3E98DA2A7148A600DA7D21 /* KivyStatusBarApp */,
+				8C3E98D92A7148A600DA7D21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C3E98D92A7148A600DA7D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C3E98D82A7148A600DA7D21 /* KivyStatusBarApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C3E98DA2A7148A600DA7D21 /* KivyStatusBarApp */ = {
+			isa = PBXGroup;
+			children = (
+				8C3E98F42A71505500DA7D21 /* Info.plist */,
+				8C3E98DB2A7148A600DA7D21 /* AppDelegate.swift */,
+				8C0B3C702A725658007263CF /* PythonHandler.swift */,
+				8C3E98EA2A714BE700DA7D21 /* main.swift */,
+				8C3E98DD2A7148A600DA7D21 /* ViewController.swift */,
+				8C3E98EF2A714E0200DA7D21 /* PythonSwiftImportList.swift */,
+				8C3E98DF2A7148AA00DA7D21 /* Assets.xcassets */,
+				8C3E98E42A7148AA00DA7D21 /* KivyStatusBarApp.entitlements */,
+			);
+			path = KivyStatusBarApp;
+			sourceTree = "<group>";
+		};
+		8C3E98F12A714E3D00DA7D21 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8C3E98F22A714E5600DA7D21 /* python-stdlib */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C3E98D72A7148A600DA7D21 /* KivyStatusBarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3E98E72A7148AA00DA7D21 /* Build configuration list for PBXNativeTarget "KivyStatusBarApp" */;
+			buildPhases = (
+				8C3E98D42A7148A600DA7D21 /* Sources */,
+				8C3E98D52A7148A600DA7D21 /* Frameworks */,
+				8C3E98D62A7148A600DA7D21 /* Resources */,
+				8C3E98F82A71545900DA7D21 /* CopyFiles */,
+				8C3E98F52A7151CD00DA7D21 /* Sign Python Binary Modules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KivyStatusBarApp;
+			packageProductDependencies = (
+				8C3E98ED2A714D4500DA7D21 /* PythonSwiftCore */,
+			);
+			productName = KivyStatusBarApp;
+			productReference = 8C3E98D82A7148A600DA7D21 /* KivyStatusBarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C3E98D02A7148A600DA7D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8C3E98D72A7148A600DA7D21 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 8C3E98D32A7148A600DA7D21 /* Build configuration list for PBXProject "KivyStatusBarApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C3E98CF2A7148A600DA7D21;
+			packageReferences = (
+				8C3E98EC2A714D4500DA7D21 /* XCRemoteSwiftPackageReference "PythonSwiftCore" */,
+			);
+			productRefGroup = 8C3E98D92A7148A600DA7D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C3E98D72A7148A600DA7D21 /* KivyStatusBarApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C3E98D62A7148A600DA7D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3E99002A71582D00DA7D21 /* python-stdlib in Resources */,
+				8C3E98FE2A71563E00DA7D21 /* app in Resources */,
+				8C3E98F72A71527000DA7D21 /* app_packages in Resources */,
+				8C3E98E02A7148AA00DA7D21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C3E98F52A7151CD00DA7D21 /* Sign Python Binary Modules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Sign Python Binary Modules";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\necho \"Signed as $EXPANDED_CODE_SIGN_IDENTITY_NAME ($EXPANDED_CODE_SIGN_IDENTITY)\"\nfind \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/support/python-stdlib/lib-dynload\" -name \"*.so\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der {} \\; \nfind \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/app_packages\" -name \"*.so\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der {} \\; \nfind \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/app\" -name \"*.so\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der {} \\; \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C3E98D42A7148A600DA7D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3E98F02A714E0200DA7D21 /* PythonSwiftImportList.swift in Sources */,
+				8C3E98DE2A7148A600DA7D21 /* ViewController.swift in Sources */,
+				8C3E98DC2A7148A600DA7D21 /* AppDelegate.swift in Sources */,
+				8C3E98EB2A714BE700DA7D21 /* main.swift in Sources */,
+				8C0B3C712A725658007263CF /* PythonHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C3E98E52A7148AA00DA7D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C3E98E62A7148AA00DA7D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8C3E98E82A7148AA00DA7D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KivyStatusBarApp/KivyStatusBarApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KivyStatusBarApp/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PythonSwiftLink.kivytest.KivyStatusBarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8C3E98E92A7148AA00DA7D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KivyStatusBarApp/KivyStatusBarApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KivyStatusBarApp/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PythonSwiftLink.kivytest.KivyStatusBarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C3E98D32A7148A600DA7D21 /* Build configuration list for PBXProject "KivyStatusBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3E98E52A7148AA00DA7D21 /* Debug */,
+				8C3E98E62A7148AA00DA7D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3E98E72A7148AA00DA7D21 /* Build configuration list for PBXNativeTarget "KivyStatusBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3E98E82A7148AA00DA7D21 /* Debug */,
+				8C3E98E92A7148AA00DA7D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C3E98EC2A714D4500DA7D21 /* XCRemoteSwiftPackageReference "PythonSwiftCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PythonSwiftLink/PythonSwiftCore";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C3E98ED2A714D4500DA7D21 /* PythonSwiftCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C3E98EC2A714D4500DA7D21 /* XCRemoteSwiftPackageReference "PythonSwiftCore" */;
+			productName = PythonSwiftCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8C3E98D02A7148A600DA7D21 /* Project object */;
+}
